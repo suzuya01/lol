@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+span {
+    text-shadow: 0 0 10px #fff;
+    transition: 0.2s;
+}
+
+h1:hover {
+    transform: translate3d(0, -10px, 22px);
+    color: #E5568C;
+}
+
+#p span:hover {
+    transform: scale(1.2);
+}
+
+#p span {
+    position: relative;
+    animation: rain 1s linear infinite;
+}
+
+#p span:nth-child(1) {
+    animation-delay: .1s;
+}
+
+#p span:nth-child(2) {
+    animation-delay: .2s;
+}
+
+#p span:nth-child(3) {
+    animation-delay: .3s;
+}
+
+#p span:nth-child(4) {
+    animation-delay: .4s;
+}
+
+#p span:nth-child(5) {
+    animation-delay: .5s;
+}
+
+#p span:nth-child(6) {
+    animation-delay: .6s;
+}
+
+#p span:nth-child(7) {
+    animation-delay: .7s;
+}
+
+#p span:nth-child(8) {
+    animation-delay: .8s;
+}
+
+#p span:nth-child(9) {
+    animation-delay: .9s;
+}
+
+#p span:nth-child(10) {
+    animation-delay: 1s;
+}
+
+
+@keyframes rain {
+    100% {
+        color: #E5568C;
+        text-shadow: 0px 0px 10px #E5568C;
+    }
+}
+
+li {
+    text-align: center;
+    padding: 5px 10px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    min-width: 380px;
+    background: #1b1b1b;
+}
+
+.ul {
+    position: sticky;
+    top: 0;
+}
